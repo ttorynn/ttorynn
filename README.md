@@ -7,7 +7,7 @@
 
 <br />
 
-Hi there, I'm Toryn, a sixteen-year-old developer from the California redwoods. I am interested in all facets of computer science and design from frontend development with frameworks to low-level algorithm optimization. Feel free to explore my repositories, make some issues and open a few pull requests.
+Hi there, I'm Toryn, a developer from California. I am interested in all facets of computer science and design from frontend development with frameworks to low-level algorithm optimization. Feel free to explore my repositories, make some issues and open a few pull requests.
 
 ## 💡 Featured Projects
 
