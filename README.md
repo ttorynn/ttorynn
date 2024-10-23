@@ -1,8 +1,10 @@
 <img src="https://capsule-render.vercel.app/api?type=soft&height=150&text=Zahtec&fontColor=fff&fontAlignY=54&fontSize=70&color=0:b324d7,100:7610b5" style="height: 100%; width: 100%;" />
 
 <div align="center">
-  <img src="https://badges.zahtec.com/views/zahtec" />
-  <img src="https://badges.zahtec.com/discord/340324858405847042">
+  <a href="https://github.com/zahtec/badges">
+    <img src="https://badges.zahtec.com/views/zahtec" />
+    <img src="https://badges.zahtec.com/discord/340324858405847042">
+  </a>
 </div>
 
 <br />
