@@ -1,13 +1,4 @@
-<pre align="center">
- _   _      _ _       _   ___ _            <span style="color:#f5e836">____</span><span style="color:#3cf536">__</span>                      
-| | | | ___| | | ___ | | |_ _( )_ __ ___  <span style="color:#f5a236">|_</span>    <span style="color:#3cf536">_|_</span><span style="color:#36f5e5">_  _</span> <span style="color:#3d47ff">__</span> <span style="color:#a83dff">_</span>   <span style="color:#ff3df9">_</span> <span style="color:#ff3d9e">_</span> <span style="color:#ff3d40">__</span>  
-| |_| |/ _ \ | |/ _ \| |  | ||/| '_ ` _ \    <span style="color:#f5a236">|</span> <span style="color:#f5e836">|/</span> <span style="color:#3cf536">_ \</span><span style="color:#36f5e5">| '_</span><span style="color:#3d47ff">_|</span> <span style="color:#a83dff">| |</span> <span style="color:#ff3df9">|</span> <span style="color:#ff3d9e">'_</span> <span style="color:#ff3d40">\</span> 
-|  _  |  __/ | | (_) |_|  | |  | | | | | |   <span class="pl-k">|</span> <span style="color:#f5a236">|</span> <span style="color:#f5e836">(_</span><span style="color:#3cf536">) |</span> <span style="color:#36f5e5">|</span>  <span style="color:#36f5e5">|</span> <span style="color:#3d47ff">|_</span><span style="color:#a83dff">| |</span> <span style="color:#ff3df9">|</span> <span style="color:#ff3d9e">|</span> <span style="color:#ff3d40">|</span>
-|_| |_|\___|_|_|\___/(_) |___| |_| |_| |_|   <span class="pl-k">|_|</span><span style="color:#f5a236">\__</span><span style="color:#f5e836">_/</span><span style="color:#3cf536">|_|</span>   <span style="color:#36f5e5">\</span><span style="color:#36f5e5">_</span><span style="color:#3d47ff">_,</span> <span style="color:#a83dff">|_|</span> <span style="color:#ff3df9">|_</span><span style="color:#ff3d9e">|</span>
-                                                           <span style="color:#3cf536">|</span><span style="color:#36f5e5">__</span><span style="color:#3d47ff">_/</span>       
-</pre>
-
-<span style="color:red;">test</sppan>
+<img src="assets/banner.jpeg" />
 
 <div align="center">
   <a href="https://github.com/ttorynn/badges">
@@ -19,10 +10,6 @@
 </div>
 
 <br />
-
-```js
-const
-```
 
 I'm a fullstack, machine learning, and electrical engineer—as well as a designer—passionate about building novel products that [actually] change the way we approach problems.
 
