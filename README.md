@@ -24,7 +24,7 @@ Here on GitHub, you'll find all of my projects that I've decided to make public.
 
 ### Featured Projects
 
-#### RF-Controlled LED Event Bracelets
+#### 🔆 [RF-Controlled LED Event Bracelets](https://toryn.bio/blog)
 
 Researched and learned PCB design, circuit theory, RF impedance matching, antenna selection, and transmission line theory to develop LED bracelets for events at my school. These are programmable with any light sequence, but are intended to sync to music.
 
@@ -32,17 +32,17 @@ A Raspberry Pi running a SvelteKit webserver integrated with SQLite serves the b
 
 More information, including photos, can be found [on my blog](https://toryn.bio/blog).
 
-#### [Licer](https://github.com/ttorynn/licer)
+#### [🪪 Licer](https://github.com/ttorynn/licer)
 
 A CLI that generates repository LICENSE files. Automatically fetches information, such as contributor names, emails, etc from either a `Cargo.toml`, `pyproject.toml`, `package.json`, or the global git config. It can generate many commonly-found licenses in their respective formats.
 
-#### [PinDrop](https://github.com/ttorynn/pindrop)
+#### [🌐 PinDrop](https://github.com/ttorynn/pindrop)
 
 A peer-to-peer file sharing service that leverages WebRTC. Similar to Apple's AirDrop and Google's Nearby Share except it is an online, cross-platform service that requires connection to the internet. Being a PWA, it can also be downloaded as a local application.
 
 Use it [here](https://pindrop.toryn.bio).
 
-#### [GitHub Badges](https://github.com/ttorynn/badges)
+#### [🎖️ GitHub Badges](https://github.com/ttorynn/badges)
 
 A profile `README` badge service that offers a profile view count and Discord status badge. Both are seen at the top of this `README` with my information.
 
