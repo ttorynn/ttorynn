@@ -1,4 +1,4 @@
-<img src="assets/banner.jpeg" />
+<img src="assets/banner.png" />
 
 <div align="center">
   <a href="https://github.com/ttorynn/badges">
