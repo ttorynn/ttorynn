@@ -7,7 +7,7 @@
                                                            <span style="color:#3cf536">|</span><span style="color:#36f5e5">__</span><span style="color:#3d47ff">_/</span>       
 </pre>
 
-<span class="pl-k">test</sppan>
+<span style="color:red;">test</sppan>
 
 <div align="center">
   <a href="https://github.com/ttorynn/badges">
