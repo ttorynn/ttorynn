@@ -1,71 +1,84 @@
+<pre align="center">
+ _   _      _ _       _   ___ _            <span style="color:#f5e836">____</span><span style="color:#3cf536">__</span>                      
+| | | | ___| | | ___ | | |_ _( )_ __ ___  <span style="color:#f5a236;">|_</span>    <span style="color:#3cf536">_|_</span><span style="color:#36f5e5">_  _</span> <span style="color:#3d47ff">__</span> <span style="color:#a83dff">_</span>   <span style="color:#ff3df9">_</span> <span style="color:#ff3d9e">_</span> <span style="color:#ff3d40">__</span>  
+| |_| |/ _ \ | |/ _ \| |  | ||/| '_ ` _ \    <span style="color:#f5a236">|</span> <span style="color:#f5e836">|/</span> <span style="color:#3cf536">_ \</span><span style="color:#36f5e5">| '_</span><span style="color:#3d47ff">_|</span> <span style="color:#a83dff">| |</span> <span style="color:#ff3df9">|</span> <span style="color:#ff3d9e">'_</span> <span style="color:#ff3d40">\</span> 
+|  _  |  __/ | | (_) |_|  | |  | | | | | |   <span style="color:#f53636;">|</span> <span style="color:#f5a236">|</span> <span style="color:#f5e836">(_</span><span style="color:#3cf536">) |</span> <span style="color:#36f5e5">|</span>  <span style="color:#36f5e5">|</span> <span style="color:#3d47ff">|_</span><span style="color:#a83dff">| |</span> <span style="color:#ff3df9">|</span> <span style="color:#ff3d9e">|</span> <span style="color:#ff3d40">|</span>
+|_| |_|\___|_|_|\___/(_) |___| |_| |_| |_|   <span style="color:#f53636;">|_|</span><span style="color:#f5a236">\__</span><span style="color:#f5e836">_/</span><span style="color:#3cf536">|_|</span>   <span style="color:#36f5e5">\</span><span style="color:#36f5e5">_</span><span style="color:#3d47ff">_,</span> <span style="color:#a83dff">|_|</span> <span style="color:#ff3df9">|_</span><span style="color:#ff3d9e">|</span>
+                                                           <span style="color:#3cf536">|</span><span style="color:#36f5e5">__</span><span style="color:#3d47ff">_/</span>       
+</pre>
+
 <div align="center">
   <a href="https://github.com/ttorynn/badges">
-    <img src="https://badges.toryn.bio/views/ttorynn" />
-    <img src="https://badges.toryn.bio/discord/340324858405847042">
+    <img src="https://badges.toryn.bio/views/ttorynn?color=000" />
+  </a>
+  <a href="https://discord.com/users/340324858405847042">
+    <img src="https://badges.toryn.bio/discord/340324858405847042?color=000">
   </a>
 </div>
 
 <br />
 
-Hi there, I'm Toryn, a developer from California. I am interested in all facets of computer science and design from frontend development with frameworks to low-level algorithm optimization. Feel free to explore my repositories, make some issues and open a few pull requests.
+I'm a fullstack, machine learning, and electrical engineer—as well as a designer—passionate about building novel products that [actually] change the way we approach problems.
 
-## 💡 Featured Projects
+Here on GitHub, you'll find all of my projects that I've decided to make public. Feel free to get in touch with me if you have any questions about my projects, experience, or simply want to say hi.
 
-Particular works of mine on GitHub I believe are useful and/or display skill.
+### Featured Projects
 
-### 🌐 Portfolio
+#### RF-Controlled LED Event Bracelets
 
-A dynamic React website listing my skills, projects and statuses along with extra information pertaining to me. Although it includes an awesome [three.js](https://github.com/mrdoob/three.js/) intro animation, I have not updated this website in a long time; some information is outdated.
+Researched and learned PCB design, circuit theory, RF impedance matching, antenna selection, and transmission line theory to develop LED bracelets for events at my school. These are programmable with any light sequence, but are intended to sync to music.
 
-**Technologies:** TypeScript, React.js, Next.js, Tailwind, Vercel, Node.js
+A Raspberry Pi running a SvelteKit webserver integrated with SQLite serves the bracelet control platform, which communicates via IPC to a C++ binary that leverages the Qt Bluetooth framework in order to broadcast byte-sized commands to hundreds of bracelets. The bracelet PCBs, designed in KiCad, possess an impedance-matched Johanson Dialectric antenna that connects to a TI SimpleLink MCU. This MCU is programmed via a Tag-Connect flashing header that transfers compiled C binaries, which use the TI SimpleLink hardware abstraction libraries to translate RF signals into PWM alterations that control the PCB's two LEDs. These PCBs are encased in a custom designed, 3D printed PETG shell.
 
-**Link:** https://zahtec.com
+More information, including photos, can be found [on my blog](https://toryn.bio/blog).
 
-### 🪪 Licer
+#### [Licer](https://github.com/ttorynn/licer)
 
-An easy-to-use CLI for generating repository `LICENSE` files. Automatically fetches information such as name, email, etc from either a `Cargo.toml`, `pyproject.toml`, `package.json` or your git config. It includes many commonly-found licenses.
+A CLI that generates repository LICENSE files. Automatically fetches information, such as contributor names, emails, etc from either a `Cargo.toml`, `pyproject.toml`, `package.json`, or the global git config. It can generate many commonly-found licenses in their respective formats.
 
-**Technologies:** Rust, PowerShell, Bash
+#### [PinDrop](https://github.com/ttorynn/pindrop)
 
-**Link:** https://github.com/zahtec/licer
+A peer-to-peer file sharing service that leverages WebRTC. Similar to Apple's AirDrop and Google's Nearby Share except it is an online, cross-platform service that requires connection to the internet. Being a PWA, it can also be downloaded as a local application.
 
-### 📄 PinDrop
+Use it [here](https://pindrop.toryn.bio).
 
-A peer-to-peer file sharing service utilizing WebRTC. Similar to Apple's AirDrop and Google's Nearby Share except it is an online, cross-platform service that requires connection to the internet. Being a PWA, it can also be downloaded as a mobile application.
+#### [GitHub Badges](https://github.com/ttorynn/badges)
 
-**Technologies:** TypeScript, WebRTC, Express, Redis, Tailwind, Fly, Docker, Node.js
+A profile `README` badge service that offers a profile view count and Discord status badge. Both are seen at the top of this `README` with my information.
 
-**Link:** https://github.com/zahtec/pindrop
+### Languages
 
-### 🤖 DetoxifAI
+![TypeScript](https://img.shields.io/badge/-TypeScript-000?&logo=TypeScript)
+![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript)
+![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
+![C](https://img.shields.io/badge/-C-000?&logo=C)
+![C++](https://img.shields.io/badge/-C++-000?&logo=c%2b%2b&logoColor=00599C)
+![SQL](https://img.shields.io/badge/-SQL-000?&logo=MySQL)
+![HTML](https://img.shields.io/badge/-HTML-000?&logo=HTML5)
+![CSS](https://img.shields.io/badge/-CSS-000?&logo=CSS&logoColor=663399)
 
-An Artificial Intelligence that identifies a few different snake and mushroom species. It provides a web interface wherein users are able to upload a photo, obtain information about the specimen in it, then proceed with various suggested actions.
+### Technologies
 
-**Technologies:** Python, Flask, PyTorch, JavaScript
+![Docker](https://img.shields.io/badge/-Docker-000?&logo=Docker)
+![Django](https://img.shields.io/badge/-Django-000?&logo=Django&logoColor=092E20)
+![Figma](https://img.shields.io/badge/-Figma-000?&logo=Figma)
+![Next.js](https://img.shields.io/badge/-Next.js-000?&logo=Next.js)
+![SvelteKit](https://img.shields.io/badge/-SvelteKit-000?&logo=Svelte)
+![React](https://img.shields.io/badge/-React-000?&logo=React)
+![Cloudflare](https://img.shields.io/badge/-Cloudflare-000?&logo=Cloudflare)
+![Git](https://img.shields.io/badge/-Git-000?&logo=Git)
+![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=Node.js)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000?&logo=PostgreSQL)
+![PyTorch](https://img.shields.io/badge/-PyTorch-000?&logo=PyTorch)
+![Redis](https://img.shields.io/badge/-Redis-000?&logo=Redis)
+![Prisma](https://img.shields.io/badge/-Prisma-000?&logo=Prisma)
+![Drizzle](https://img.shields.io/badge/-Drizzle-000?&logo=Drizzle)
+![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-000?&logo=TailwindCSS)
+![pandas](https://img.shields.io/badge/-pandas-000?&logo=pandas)
+![KiCad](https://img.shields.io/badge/-KiCad-000?&logo=KiCad&logoColor=314CB0)
+![LTspice](https://img.shields.io/badge/-LTspice-000?&logo=LTspice&logoColor=900028)
+![Ansys HFSS](https://img.shields.io/badge/-Ansys%20HFSS-000?&logo=Ansys)
 
-**Link:** https://github.com/zahtec/SC22-BatchB-Flaming-Fuelers-DetoxifAI
+### Statistics
 
-### 🎖️ Badges
-
-Another profile `README.md` badge service that offers a Discord status and profile view count badge. Both can be seen at the top of this `README.md` with my information; I plan to extend this as more badges are added. These employ Cloudflare's Worker network.
-
-**Technologies:** TypeScript, Cloudflare Workers, Node.js
-
-**Link:** https://github.com/zahtec/badges
-
-## 🛠️ Skills
-
-![Skill logos](https://skillicons.dev/icons?i=js,html,css,bash,django,docker,express,figma,latex,nextjs,ts,vite,cloudflare,md,git,githubactions,vscode,nodejs,postgres,powershell,prisma,py,react,redis,regex,rust,svelte,tailwind)
-
-## ✉️ Contact
-
-There are multiple platforms on which you can add, follow or contact me, however, I am most active on Discord and will likely respond swiftly if messaged through it.
-
-[![Discord logo](https://skillicons.dev/icons?i=discord)](https://www.discord.com/users/340324858405847042)
-[![LinkedIn logo](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/toryn-t-505265265)
-[![Gmail logo](./assets/gmail.svg)](mailto:contact@zahtec.com)
-
-## 📈 Statistics
-
-![GitHub statistics](https://github-readme-stats.vercel.app/api?username=zahtec&show_icons=true&bg_color=7610b5&text_color=fff&icon_color=fff&hide_border=true&hide_rank=true&hide_title=true)
-![Top programming languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zahtec&bg_color=7610b5&hide_border=true&title_color=fff&text_color=fff&layout=compact)
+<img src="https://github-readme-stats.vercel.app/api?username=ttorynn&show_icons=true&bg_color=000&text_color=fff&icon_color=fff&hide_border=true&hide_rank=true&hide_title=true&border_radius=0" /><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ttorynn&bg_color=000&hide_border=true&title_color=fff&text_color=fff&layout=compact&border_radius=0" />
