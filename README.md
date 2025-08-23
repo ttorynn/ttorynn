@@ -2,8 +2,8 @@
  _   _      _ _       _   ___ _            <code style="color:#f5e836">____</code><code style="color:#3cf536">__</code>                      
 | | | | ___| | | ___ | | |_ _( )_ __ ___  <code style="color:#f5a236">|_</code>    <code style="color:#3cf536">_|_</code><code style="color:#36f5e5">_  _</code> <code style="color:#3d47ff">__</code> <code style="color:#a83dff">_</code>   <code style="color:#ff3df9">_</code> <code style="color:#ff3d9e">_</code> <code style="color:#ff3d40">__</code>  
 | |_| |/ _ \ | |/ _ \| |  | ||/| '_ ` _ \    <code style="color:#f5a236">|</code> <code style="color:#f5e836">|/</code> <code style="color:#3cf536">_ \</code><code style="color:#36f5e5">| '_</code><code style="color:#3d47ff">_|</code> <code style="color:#a83dff">| |</code> <code style="color:#ff3df9">|</code> <code style="color:#ff3d9e">'_</code> <code style="color:#ff3d40">\</code> 
-|  _  |  __/ | | (_) |_|  | |  | | | | | |   <code style="color:red">|</code> <code style="color:#f5a236">|</code> <code style="color:#f5e836">(_</code><code style="color:#3cf536">) |</code> <code style="color:#36f5e5">|</code>  <code style="color:#36f5e5">|</code> <code style="color:#3d47ff">|_</code><code style="color:#a83dff">| |</code> <code style="color:#ff3df9">|</code> <code style="color:#ff3d9e">|</code> <code style="color:#ff3d40">|</code>
-|_| |_|\___|_|_|\___/(_) |___| |_| |_| |_|   <span>$${\color{red}|_|}$$</span><code style="color:#f5a236">\__</code><code style="color:#f5e836">_/</code><code style="color:#3cf536">|_|</code>   <code style="color:#36f5e5">\</code><code style="color:#36f5e5">_</code><code style="color:#3d47ff">_,</code> <code style="color:#a83dff">|_|</code> <code style="color:#ff3df9">|_</code><code style="color:#ff3d9e">|</code>
+|  _  |  __/ | | (_) |_|  | |  | | | | | |   <code style="color:#f53636">|</code> <code style="color:#f5a236">|</code> <code style="color:#f5e836">(_</code><code style="color:#3cf536">) |</code> <code style="color:#36f5e5">|</code>  <code style="color:#36f5e5">|</code> <code style="color:#3d47ff">|_</code><code style="color:#a83dff">| |</code> <code style="color:#ff3df9">|</code> <code style="color:#ff3d9e">|</code> <code style="color:#ff3d40">|</code>
+|_| |_|\___|_|_|\___/(_) |___| |_| |_| |_|   <code style="color:#f53636">|_|</code><code style="color:#f5a236">\__</code><code style="color:#f5e836">_/</code><code style="color:#3cf536">|_|</code>   <code style="color:#36f5e5">\</code><code style="color:#36f5e5">_</code><code style="color:#3d47ff">_,</code> <code style="color:#a83dff">|_|</code> <code style="color:#ff3df9">|_</code><code style="color:#ff3d9e">|</code>
                                                            <code style="color:#3cf536">|</code><code style="color:#36f5e5">__</code><code style="color:#3d47ff">_/</code>       
 </pre>
 
@@ -17,6 +17,10 @@
 </div>
 
 <br />
+
+```js
+const
+```
 
 I'm a fullstack, machine learning, and electrical engineer—as well as a designer—passionate about building novel products that [actually] change the way we approach problems.
 
