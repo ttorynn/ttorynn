@@ -18,7 +18,7 @@
 
 <br />
 
-i'm a hardware engineer / fullstack developer who designs electronics and programs embedded systems, focusing on powerful yet efficient platforms that run models on the edge.
+I'm a hardware engineer / fullstack developer who designs electronics and programs embedded systems, focusing on powerful yet efficient platforms that run models on the edge.
 
 Check out my portfolio at [toryn.bio](https://toryn.bio/)
 
