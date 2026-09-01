@@ -18,33 +18,9 @@
 
 <br />
 
-I'm a fullstack, machine learning, and electrical engineer—as well as a designer—passionate about building novel products that [actually] change the way we approach problems.
+i'm a hardware engineer / fullstack developer who designs electronics and programs embedded systems, focusing on powerful yet efficient platforms that run models on the edge.
 
-Here on GitHub, you'll find all of my projects that I've decided to make public. Feel free to get in touch with me if you have any questions about my projects, experience, or simply want to say hi.
-
-### Featured Projects
-
-#### 🔆 [RF-Controlled LED Event Bracelets](https://toryn.bio/blog)
-
-Researched and learned PCB design, circuit theory, RF impedance matching, antenna selection, and transmission line theory to develop LED bracelets for events at my school. These are programmable with any light sequence, but are intended to sync to music.
-
-A Raspberry Pi running a SvelteKit webserver integrated with SQLite serves the bracelet control platform, which communicates via IPC to a C++ binary that leverages the Qt Bluetooth framework in order to broadcast byte-sized commands to hundreds of bracelets. The bracelet PCBs, designed in KiCad, possess an impedance-matched Johanson Dialectric antenna that connects to a TI SimpleLink MCU. This MCU is programmed via a Tag-Connect flashing header that transfers compiled C binaries, which use the TI SimpleLink hardware abstraction libraries to translate RF signals into PWM alterations that control the PCB's two LEDs. These PCBs are encased in a custom designed, 3D printed PETG shell.
-
-More information, including photos, can be found [on my blog](https://toryn.bio/blog).
-
-#### [🪪 Licer](https://github.com/ttorynn/licer)
-
-A CLI that generates repository LICENSE files. Automatically fetches information, such as contributor names, emails, etc from either a `Cargo.toml`, `pyproject.toml`, `package.json`, or the global git config. It can generate many commonly-found licenses in their respective formats.
-
-#### [🌐 PinDrop](https://github.com/ttorynn/pindrop)
-
-A peer-to-peer file sharing service that leverages WebRTC. Similar to Apple's AirDrop and Google's Nearby Share except it is an online, cross-platform service that requires connection to the internet. Being a PWA, it can also be downloaded as a local application.
-
-Use it [here](https://pindrop.toryn.bio).
-
-#### [🎖️ GitHub Badges](https://github.com/ttorynn/badges)
-
-A profile `README` badge service that offers a profile view count and Discord status badge. Both are seen at the top of this `README` with my information.
+Check out my portfolio at [toryn.bio](https://toryn.bio/)
 
 ### Languages
 
@@ -53,20 +29,21 @@ A profile `README` badge service that offers a profile view count and Discord st
 ![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
 ![C](https://img.shields.io/badge/-C-000?&logo=C)
 ![C++](https://img.shields.io/badge/-C++-000?&logo=c%2b%2b&logoColor=00599C)
-![SQL](https://img.shields.io/badge/-SQL-000?&logo=MySQL)
 ![HTML](https://img.shields.io/badge/-HTML-000?&logo=HTML5)
 ![CSS](https://img.shields.io/badge/-CSS-000?&logo=CSS&logoColor=663399)
 
 ### Technologies
 
+![KiCad](https://img.shields.io/badge/-KiCad-000?&logo=KiCad&logoColor=314CB0)
+![Altium](https://img.shields.io/badge/-Altium-000?&logo=Altium&logoColor=314CB0)
+![LTspice](https://img.shields.io/badge/-LTspice-000?&logo=LTspice&logoColor=900028)
+![Onshape](https://img.shields.io/badge/-Onshape-000?&logo=Onshape&logoColor=900028)
 ![Docker](https://img.shields.io/badge/-Docker-000?&logo=Docker)
-![Django](https://img.shields.io/badge/-Django-000?&logo=Django&logoColor=092E20)
-![Figma](https://img.shields.io/badge/-Figma-000?&logo=Figma)
 ![Next.js](https://img.shields.io/badge/-Next.js-000?&logo=Next.js)
-![SvelteKit](https://img.shields.io/badge/-SvelteKit-000?&logo=Svelte)
 ![React](https://img.shields.io/badge/-React-000?&logo=React)
+![SvelteKit](https://img.shields.io/badge/-SvelteKit-000?&logo=Svelte)
+![Figma](https://img.shields.io/badge/-Figma-000?&logo=Figma)
 ![Cloudflare](https://img.shields.io/badge/-Cloudflare-000?&logo=Cloudflare)
-![Git](https://img.shields.io/badge/-Git-000?&logo=Git)
 ![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=Node.js)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000?&logo=PostgreSQL)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-000?&logo=PyTorch)
@@ -75,10 +52,4 @@ A profile `README` badge service that offers a profile view count and Discord st
 ![Drizzle](https://img.shields.io/badge/-Drizzle-000?&logo=Drizzle)
 ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-000?&logo=TailwindCSS)
 ![pandas](https://img.shields.io/badge/-pandas-000?&logo=pandas)
-![KiCad](https://img.shields.io/badge/-KiCad-000?&logo=KiCad&logoColor=314CB0)
-![LTspice](https://img.shields.io/badge/-LTspice-000?&logo=LTspice&logoColor=900028)
-![Ansys HFSS](https://img.shields.io/badge/-Ansys%20HFSS-000?&logo=Ansys)
 
-### Statistics
-
-<img src="https://github-readme-stats.vercel.app/api?username=ttorynn&show_icons=true&bg_color=000&text_color=fff&icon_color=fff&hide_border=true&hide_rank=true&hide_title=true&border_radius=0" /><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ttorynn&bg_color=000&hide_border=true&title_color=fff&text_color=fff&layout=compact&border_radius=0" />
