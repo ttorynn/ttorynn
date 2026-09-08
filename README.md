@@ -11,9 +11,6 @@
   <a href="https://github.com/ttorynn/badges">
     <img src="https://badges.toryn.bio/views/ttorynn?color=000" />
   </a>
-  <a href="https://discord.com/users/340324858405847042">
-    <img src="https://badges.toryn.bio/discord/340324858405847042?color=000">
-  </a>
 </div>
 
 <br />
